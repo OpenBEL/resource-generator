@@ -54,7 +54,7 @@ def make_rdf(d, g, prefix_dict=None):
     name = d._name.replace('-', ' ').title()
     domain = d._domain
     g.add((namespace[d._name], SKOS.prefLabel, literal(name)))
-    g.add((namespace[d._name], BELV.prefix, literal(d._prefix)))
+    g.add((namespace[d._name], BELV.prefix, literal(d._prefix.upper())))
     # TODO consider updating domain to uri instead of literal
     # domain is a list - a namespace can be associated with multiple domains
     for dom in domain:
