@@ -5,6 +5,8 @@ See [wiki](https://github.com/OpenBEL/resource-generator/wiki/Adding-new-Namespa
 
 ## Resource Generator
 
+NOTE: Further details on resource generation in this [Guide](https://github.com/OpenBEL/resource-generator/blob/java/README.adoc)
+
 To run:
 './gp_baseline.py -n [dir]'
 '[dir]' is the working directory to which data will be downloaded and new files generated.
