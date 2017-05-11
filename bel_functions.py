@@ -6,7 +6,7 @@ namespaces = {'HGNC': 'hgnc-human-genes.belns',
               'MGI': 'mgi-mouse-genes.belns',
               'RGD': 'rgd-rat-genes.belns'}
 annotations = {}
-base_url = 'http://resource.belframework.org/belframework/latest/'
+base_url = 'http://resources.openbel.org/belframework/latest/'
 today = datetime.date.today()
 version = today.strftime('%Y%m%d')
 

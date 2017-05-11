@@ -13,7 +13,7 @@ encodings to generate transcribedTo and translatedTo BEL statements. """
 namespaces = {'HGNC': 'hgnc-human-genes.belns',
               'MGI': 'mgi-mouse-genes.belns',
               'RGD': 'rgd-rat-genes.belns'}
-base_url = 'http://resource.belframework.org/belframework/testing/namespace/'
+base_url = 'http://resources.openbel.org/belframework/testing/namespace/'
 output_file = 'gene_scaffolding_document_9606_10090_10116.bel'
 
 
@@ -82,7 +82,7 @@ def scaffold(belns_filename, ns):
     return statements, name, species, date
 
 annotations = {
-    'Species': 'http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno'}
+    'Species': 'http://resources.openbel.org/belframework/testing/annotation/species-taxonomy-id.belanno'}
 today = datetime.date.today()
 version = today.strftime('%Y%m%d')
 separator = '#' * 50

@@ -21,7 +21,7 @@ Generates resource 'scaffolding' document for named complexes to be used with th
 output_file = 'named-complexes.bel'
 
 # url for .belns document with complex, values are expected to be GO IDs
-gocc_url = 'http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-ids.belns'
+gocc_url = 'http://resources.openbel.org/belframework/testing/namespace/go-cellular-component-ids.belns'
 
 # GO annotation file locations and associated namespaces
 datasets = [
@@ -90,11 +90,11 @@ print('\nFound {0} complexes in {1}.'.format(len(complexes), gocc_url))
 
 # info for bel script output file generation
 annotations = {
-    'Species': 'http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno'}
+    'Species': 'http://resources.openbel.org/belframework/testing/annotation/species-taxonomy-id.belanno'}
 namespaces = {
-    'HGNC': 'http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns',
-    'MGI': 'http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns',
-    'RGD': 'http://resource.belframework.org/belframework/testing/namespace/rgd-approved-symbols.belns',
+    'HGNC': 'http://resources.openbel.org/belframework/testing/namespace/hgnc-approved-symbols.belns',
+    'MGI': 'http://resources.openbel.org/belframework/testing/namespace/mgi-approved-symbols.belns',
+    'RGD': 'http://resources.openbel.org/belframework/testing/namespace/rgd-approved-symbols.belns',
     complex_ns: gocc_url}
 
 today = datetime.date.today()
