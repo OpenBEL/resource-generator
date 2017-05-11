@@ -393,6 +393,7 @@ class HGNCData(NamespaceDataSet, OrthologyData, HistoryDataSet):
         'transposable element': 'G', 'unknown': 'GRP',
         'virus integration site': 'G', 'RNA, micro': 'GRM',
         'RNA, misc': 'GR', 'RNA, Y': 'GR', 'RNA, vault': 'GR',
+        'T-cell receptor gene':'G','T-cell receptor pseudogene':'G',
 
     }
 
