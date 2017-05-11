@@ -58,7 +58,7 @@ baseline_data['hgnc.tsv'] = (
 
 mgi_data = MGIData()
 baseline_data['mgi.rpt'] = (
-    'ftp://ftp.informatics.jax.org/pub/reports/MRK_List2.rpt',
+    'http://www.informatics.jax.org/downloads/reports/MRK_List2.rpt',
     parsers.MGIParser, mgi_data
 )
 
