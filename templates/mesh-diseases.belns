@@ -3,7 +3,7 @@ NameString=MeSH Diseases (Names)
 Keyword=MESHD
 DomainString=Biological Process
 SpeciesString=all
-DescriptionString=Medical Subject Headings (MeSH) from the Diseases [C] and Mental Disorders [F03] branches. These headings may be used to specify pathologies.
+DescriptionString=Medical Subject Headings (MeSH) from the Diseases [C] and Psychiatry and Psychology [F] branches. These headings may be used to specify pathologies.
 VersionString=[#VALUE#]
 CreatedDateTime=[#VALUE#]
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
