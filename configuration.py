@@ -58,7 +58,7 @@ baseline_data['hgnc.tsv'] = (
 
 mgi_data = MGIData()
 baseline_data['mgi.rpt'] = (
-    'ftp://ftp.informatics.jax.org/pub/reports/MRK_List2.rpt',
+    'http://www.informatics.jax.org/downloads/reports/MRK_List2.rpt',
     parsers.MGIParser, mgi_data
 )
 
@@ -169,7 +169,8 @@ baseline_data['taxnames_9606_10090_10116.dmp'] = (
     tax_data)
 
 # - get the latest GO archive file name and URL
-go_file = get_latest_GO_filename('http://archive.geneontology.org/latest-full')
+#go_file = get_latest_GO_filename('http://archive.geneontology.org/latest-full')
+go_file = 'http://archive.geneontology.org/latest-full/go_monthly-termdb.obo-xml.gz'
 gobp_dict, gocc_dict = {}, {}
 gobp_data = GOData(
     gobp_dict,

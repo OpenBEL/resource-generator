@@ -393,6 +393,7 @@ class HGNCData(NamespaceDataSet, OrthologyData, HistoryDataSet):
         'transposable element': 'G', 'unknown': 'GRP',
         'virus integration site': 'G', 'RNA, micro': 'GRM',
         'RNA, misc': 'GR', 'RNA, Y': 'GR', 'RNA, vault': 'GR',
+        'T-cell receptor gene':'G','T-cell receptor pseudogene':'G',
 
     }
 
@@ -512,7 +513,9 @@ class MGIData(NamespaceDataSet):
         'pseudogene': 'GR', 'transgene': 'G',
         'other genome feature': 'G', 'pseudogenic region': 'GR',
         'polymorphic pseudogene': 'GRP',
-        'pseudogenic gene segment': 'GR', 'SRP RNA gene': 'GR'
+        'pseudogenic gene segment': 'GR', 'SRP RNA gene': 'GR',
+        'antisense lncRNA gene': 'GR', 'lncRNA gene': 'GR',
+        'intronic lncRNA gene': 'GR', 'ribozyme gene': 'GR'
     }
 
     def __init__(
